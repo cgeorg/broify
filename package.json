@@ -1,0 +1,23 @@
+{
+  "name": "broify",
+  "version": "1.0.0",
+  "description": "Broify your text",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cgeorg/broify"
+  },
+  "author": "Chris Marasti-Georg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgeorg/broify/issues"
+  },
+  "homepage": "https://github.com/cgeorg/broify",
+  "devDependencies": {
+    "require-directory": "^2.1.0",
+    "tape": "^4.0.0",
+    "tape-catch": "^1.0.4"
+  }
+}
