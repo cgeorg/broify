@@ -2,6 +2,7 @@ var test = require('tape-catch');
 var broify = require('./index');
 
 var testCases = [
+    ['Hello World!', 'Helbro Brorld!', 'greet a bro'],
     ['origami', 'brorigami', 'leading o'],
     ['innovation', 'inbrovation', 'middle o'],
     ['keno', 'kebro', 'trailing o'],

@@ -1,6 +1,6 @@
 # Broify
 
-Broify
+Broify your life.
 
 [![npm version](https://badge.fury.io/js/broify.svg)](http://badge.fury.io/js/broify)
 [![Dependency Status](https://david-dm.org/cgeorg/broify.svg)](https://david-dm.org/cgeorg/broify)
