@@ -10,7 +10,7 @@ var testCases = [
     ['bro', 'bro', 'do not hassle a bro'],
     ['brown', 'brown', 'do not hassle a bro'],
     ['tomato', 'bromabro', 'you say tomahto'],
-    ['innebriated', 'innebroated', 'br should always end in o'],
+    ['inebriated', 'inebroated', 'br should always end in o'],
     ['booed', 'brooed', 'do not double bro a double o'],
     ['boast', 'broast', 'roastin toastin boastin'],
     ['roast', 'broast', 'roastin toastin boastin'],
