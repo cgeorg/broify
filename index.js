@@ -6,6 +6,7 @@ function broify(str) {
             [/kno/gi, 'bro'],
             [/clo/gi, 'bro'],
             [/sho/gi, 'bro'],
+            [/ppo/gi, 'bro'],
             [/(b)ry/gi, '$1roy'],
             [/[BCDFGHJKLMNPQRSTVWXYZ]ro/g, 'Bro'],
             [/[bcdfghjklmnprstvwxyz]ro/g, 'bro'],
