@@ -15,14 +15,11 @@ function broify(str) {
             [/((Br)|[BCDFGHJKLMNPQRSTVWXYZ](o+))/g, function ($0, $1, $2, $3) {
                 return $2 ? $0 : ("Br" + $3);
             }],
-            [/((Br)|([BCDFGHJKLMNPQRSTVWXYZ])O)/g, function ($0, $1, $2, $3, $4) {
-                return $2 ? $0 : ($3 + "Bro");
-            }],
+            [/O/g, 'Bro'],
             [/(([Bb]r)|[bcdfghjklmnprstvwxyz](o+))/g, function ($0, $1, $2, $3) {
                 return $2 ? $0 : ("br" + $3);
             }],
             [/(\b)o/g, '$1bro'],
-            [/(\b)O/g, '$1Bro'],
             [/(b).?[aeiu]/gi, '$1ro'],
             [/((^|[^t])[aeiu])o/gi, '$1bro']
         ].reduce(function (str, r) {
