@@ -9,10 +9,14 @@ function broify(str) {
             [/ppo/gi, 'bro'],
             [/tho/gi, 'bro'],
             [/(b)ry/gi, '$1roy'],
+            [/(b)[aeiou]r([^aeiu]|$)/gi, '$1ro$2'],
             [/[BCDFGHJKLMNPQRSTVWXYZ]ro/g, 'Bro'],
             [/[bcdfghjklmnprstvwxyz]ro/g, 'bro'],
             [/((Br)|[BCDFGHJKLMNPQRSTVWXYZ](o+))/g, function ($0, $1, $2, $3) {
                 return $2 ? $0 : ("Br" + $3);
+            }],
+            [/((Br)|([BCDFGHJKLMNPQRSTVWXYZ])O)/g, function ($0, $1, $2, $3, $4) {
+                return $2 ? $0 : ($3 + "Bro");
             }],
             [/(([Bb]r)|[bcdfghjklmnprstvwxyz](o+))/g, function ($0, $1, $2, $3) {
                 return $2 ? $0 : ("br" + $3);

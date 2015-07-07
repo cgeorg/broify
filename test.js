@@ -31,9 +31,13 @@ var testCases = [
         'And bro, my felbrow Americans, ask brot what brour brountry can bro bror brou; ask what brou can bro bror brour brountry.',
         'brofk'],
     ['Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.',
-        'Brour brore and seven years abro brour fathers brought brorth bron this brontinent a new nation, bronceived in librorty, and dedicated bro the brobrosition that all men are created equal.',
+        'Brour brore and seven years abro brour fathers brought brorth bron this brontinent a new nation, bronceived in libroty, and dedicated bro the brobrosition that all men are created equal.',
         'abroham'],
-    ['though', 'brough', 'th is special']
+    ['though', 'brough', 'th is special'],
+    ['Pittsburgh', 'Pittsbrogh', 'bros of steel'],
+    ['labor', 'labro', 'hard workin bros'],
+    ['laborer', 'labrorer', 'still workin'],
+    ['CFO', 'CFBro', 'bros makin that scratch']
 ];
 
 testCases.forEach(function (testCase) {
