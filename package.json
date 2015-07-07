@@ -3,6 +3,6 @@
     "build": "webpack"
   },
   "dependencies": {
-    "broify": "^1.0.0"
+    "broify": "^1.1.0"
   }
 }
