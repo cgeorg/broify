@@ -6,6 +6,7 @@ function broify(str) {
             [/kno/gi, 'bro'],
             [/clo/gi, 'bro'],
             [/sho/gi, 'bro'],
+            [/(b)ry/gi, '$1roy'],
             [/[BCDFGHJKLMNPQRSTVWXYZ]ro/g, 'Bro'],
             [/[bcdfghjklmnprstvwxyz]ro/g, 'bro'],
             [/((Br)|[BCDFGHJKLMNPQRSTVWXYZ](o+))/g, function ($0, $1, $2, $3) {
@@ -16,7 +17,7 @@ function broify(str) {
             }],
             [/(\b)o/g, '$1bro'],
             [/(\b)O/g, '$1Bro'],
-            [/(br)[aeiu]/gi, '$1o']
+            [/(b).?[aeiu]/gi, '$1ro']
         ].reduce(function (str, r) {
                 return str.replace(r[0], r[1]);
             }, str);
