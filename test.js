@@ -23,6 +23,7 @@ var testCases = [
     ['heroku', 'hebroku', 'broud computing'],
     ['cloud', 'broud', 'broud computing redux'],
     ['Kobe Bryant', 'Brobro Broyant', 'la bros'],
+    ['Joe DiMaggio', 'Broe DiMaggibro', 'Broltin\' Bro'],
     ['she sells sea shells on the sea shore', 'she sells sea shells bron the sea brore', 'she is a bro'],
     ['And so, my fellow Americans, ask not what your country can do for you; ask what you can do for your country.',
         'And bro, my felbrow Americans, ask brot what brour brountry can bro bror brou; ask what brou can bro bror brour brountry.',

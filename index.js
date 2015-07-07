@@ -17,7 +17,8 @@ function broify(str) {
             }],
             [/(\b)o/g, '$1bro'],
             [/(\b)O/g, '$1Bro'],
-            [/(b).?[aeiu]/gi, '$1ro']
+            [/(b).?[aeiu]/gi, '$1ro'],
+            [/((^|[^t])[aeiu])o/gi, '$1bro']
         ].reduce(function (str, r) {
                 return str.replace(r[0], r[1]);
             }, str);

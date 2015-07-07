@@ -1,7 +1,7 @@
 {
   "name": "broify",
-  "version": "2.0.0",
-  "description": "Broify your text",
+  "version": "2.1.0",
+  "description": "Broify your life",
   "scripts": {
     "test": "node test"
   },
