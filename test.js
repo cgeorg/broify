@@ -39,7 +39,9 @@ var testCases = [
     ['laborer', 'labrorer', 'still workin'],
     ['CFO', 'CFBro', 'bros makin that scratch'],
     ['CEO', 'CEBro', 'bros in charge'],
-    ['COO', 'CBroBro', 'smooth broperator']
+    ['COO', 'CBroBro', 'smooth broperator'],
+    ['smooth operator', 'brooth broperabror', 'smooth broperator 2'],
+    ['bury me in smoke', 'brory me in broke', 'brown']
 ];
 
 testCases.forEach(function (testCase) {

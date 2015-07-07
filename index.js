@@ -8,8 +8,9 @@ function broify(str) {
             [/sho/gi, 'bro'],
             [/ppo/gi, 'bro'],
             [/tho/gi, 'bro'],
+            [/smo/gi, 'bro'],
             [/(b)ry/gi, '$1roy'],
-            [/(b)[aeiou]r([^aeiu]|$)/gi, '$1ro$2'],
+            [/(b)[aeiou]r([^aeiuy]|$)/gi, '$1ro$2'],
             [/[BCDFGHJKLMNPQRSTVWXYZ]ro/g, 'Bro'],
             [/[bcdfghjklmnprstvwxyz]ro/g, 'bro'],
             [/((Br)|[BCDFGHJKLMNPQRSTVWXYZ](o+))/g, function ($0, $1, $2, $3) {
