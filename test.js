@@ -41,7 +41,21 @@ var testCases = [
     ['CEO', 'CEBro', 'bros in charge'],
     ['COO', 'CBroBro', 'smooth broperator'],
     ['smooth operator', 'brooth broperabror', 'smooth broperator 2'],
-    ['bury me in smoke', 'brory me in broke', 'brown']
+    ['bury me in smoke', 'brory me in broke', 'brown'],
+    ['phone', 'brone', 'issue bro 1'],
+    ['plop', 'brop', 'issue bro 1'],
+    ['gloss', 'bross', 'issue bro 1'],
+    ['slop', 'brop', 'issue bro 1'],
+    ['strong', 'brong', 'issue bro 1'],
+    ['chosen', 'brosen', 'issue bro 1'],
+    ['scrounge', 'brounge', 'issue bro 1'],
+    ['glock', 'brock', 'issue bro 1'],
+    ['phone', 'brone', 'issue bro 1'],
+    ['chrome', 'brome', 'issue bro 1'],
+    ['github.io', 'github.ibro', 'issue bro 1'],
+    ['snowball', 'browbroll', 'issue bro 1'],
+    ['blow', 'brow', 'issue bro 1'],
+    ['throw', 'brow', 'issue bro 1'],
 ];
 
 testCases.forEach(function (testCase) {
