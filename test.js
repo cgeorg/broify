@@ -52,13 +52,14 @@ var testCases = [
     ['glock', 'brock', 'issue bro 1'],
     ['phone', 'brone', 'issue bro 1'],
     ['chrome', 'brome', 'issue bro 1'],
-    ['github.io', 'githubro.ibro', 'issue bro 1'],
+    ['github.io', 'github.ibro', 'issue bro 1'],
     ['snowball', 'browbroll', 'issue bro 1'],
     ['blow', 'brow', 'issue bro 1'],
     ['throw', 'brow', 'issue bro 1'],
     ['paddyb', 'paddybro', 'issue bro 5'],
     ['two of a kind', 'bro brof a kind', 'issue bro 6'],
     ['spotify', 'brotify', 'issue bro 7'],
+    ['kebab', 'kebrob', 'paddyb should be whitelisted']
 ];
 
 testCases.forEach(function (testCase) {
