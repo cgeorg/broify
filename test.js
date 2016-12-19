@@ -58,6 +58,7 @@ var testCases = [
     ['throw', 'brow', 'issue bro 1'],
     ['paddyb', 'paddybro', 'issue bro 5'],
     ['two of a kind', 'bro brof a kind', 'issue bro 6'],
+    ['spotify', 'brotify', 'issue bro 7'],
 ];
 
 testCases.forEach(function (testCase) {

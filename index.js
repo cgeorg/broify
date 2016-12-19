@@ -23,6 +23,7 @@ function broify(str) {
             [/blo/gi, 'bro'],
             [/thro/gi, 'bro'],
             [/two/gi, 'bro'],
+            [/spo/gi, 'bro'],
             [/(b)ry/gi, '$1roy'],
             [/(b)[aeiou]r([^aeiuy]|$)/gi, '$1ro$2'],
             [/[BCDFGHJKLMNPQRSTVWXYZ]ro/g, 'Bro'],
